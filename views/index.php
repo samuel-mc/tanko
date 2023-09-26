@@ -54,21 +54,21 @@
         <h2 class="text--dark-blue text--bold font--jf text--xl">Nuestros <span class="text--medium-blue">Productos.</span></h2>
         <div class="grid--3cols gap--24">
             <div class="card shadow p-5 text-center">
-                <img src="<?php echo __ROOT__; ?>/public/img/home/sPersonales.png" class="w-100">
+                <img src="<?php echo __ROOT__; ?>/public/img/home/sPersonales.png" class="w-100 mw--280">
                 <h4 class="text--dark-blue text--bold my-3">Seguros personales.</h4>
                 <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn--rounded btn--mediumBlue py-3 px-4 w--fit h--fit mx-auto">
                     Conoce el seguro <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
             <div class="card shadow p-5 text-center">
-                <img src="<?php echo __ROOT__; ?>/public/img/home/sEmpresariales.png" class="w-100">
+                <img src="<?php echo __ROOT__; ?>/public/img/home/sEmpresariales.png" class="w-100 mw--280">
                 <h4 class="text--dark-blue text--bold my-3">Seguros empresariales..</h4>
                 <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn--rounded btn--mediumBlue py-3 px-4 w--fit h--fit mx-auto">
                     Conoce el seguro <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
             <div class="card shadow p-5 text-center">
-                <img src="<?php echo __ROOT__; ?>/public/img/home/fianzas.png" class="w-100">
+                <img src="<?php echo __ROOT__; ?>/public/img/home/fianzas.png" class="w-100 mw--280">
                 <h4 class="text--dark-blue text--bold my-3">Fianzas.</h4>
                 <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn--rounded btn--mediumBlue py-3 px-4 w--fit h--fit mx-auto">
                     Conoce el seguro <i class="fa-solid fa-arrow-right"></i>
@@ -76,5 +76,69 @@
             </div>
         </div>
     </section>
+    <section class="mw--1440 text-center p-2">
+        <h2 class="text--dark-blue text--bold font--jf text--xl">Conoce Nuestros <span class="text--medium-blue">Servicios.</span></h2>
+        <div class="bg--lightBlue rounded--16 p-lg-5 p-4 grid--3cols gap-32">
+            <div class="grid--2rows">
+                <img src="<?php echo __ROOT__; ?>/public/img/home/ns1.png" class="w-100 mw--280 mh--140">
+                <div class="d-flex flex-column justify-content-between">
+                    <p class="text--sm my-3">Corretaje de Programas de seguros y fianzas en el mercado nacional y extranjero.</p>
+                    <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn--rounded btn--mediumBlue py-3 px-4 w--fit h--fit mx-auto">
+                        Conoce más <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="grid--2rows">
+                <img src="<?php echo __ROOT__; ?>/public/img/home/ns2.png" class="w-100 mw--280 mh--140">
+                <div class="d-flex flex-column justify-content-between">
+                    <p class="text--sm my-3">Corretaje de Programas de seguros y fianzas en el mercado nacional y extranjero.</p>
+                    <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn--rounded btn--mediumBlue py-3 px-4 w--fit h--fit mx-auto">
+                        Conoce más <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="grid--2rows">
+                <img src="<?php echo __ROOT__; ?>/public/img/home/ns3.png" class="w-100 mw--280 mh--140">
+                <div class="d-flex flex-column justify-content-between">
+                    <p class="text--sm my-3">Auditoria de programas de seguro vigentes.</p>
+                    <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn--rounded btn--mediumBlue py-3 px-4 w--fit h--fit mx-auto">
+                        Conoce más <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="grid--2rows">
+                <img src="<?php echo __ROOT__; ?>/public/img/home/ns4.png" class="w-100 mw--280 mh--140">
+                <div class="d-flex flex-column justify-content-between">
+                    <p class="text--sm my-3">Servicios de Ingeniería, tales como: Inspecciones de evaluación, cálculo de  PML, manejo de control de pérdidas.</p>
+                    <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn--rounded btn--mediumBlue py-3 px-4 w--fit h--fit mx-auto">
+                        Conoce más <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="grid--2rows">
+                <img src="<?php echo __ROOT__; ?>/public/img/home/ns5.png" class="w-100 mw--280 mh--140">
+                <div class="d-flex flex-column justify-content-between">
+                    <p class="text--sm my-3">
+                        Capacitación a empresas en administración de riesgos y coberturas de seguros.
+                    </p>
+                    <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn--rounded btn--mediumBlue py-3 px-4 w--fit h--fit mx-auto">
+                        Conoce más <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="grid--2rows">
+                <img src="<?php echo __ROOT__; ?>/public/img/home/ns6.png" class="w-100 mw--280 mh--140">
+                <div class="d-flex flex-column justify-content-between">
+                    <p class="text--sm my-3">
+                    Asesoría y Gestión de siniestros.
+                    </p>
+                    <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn--rounded btn--mediumBlue py-3 px-4 w--fit h--fit mx-auto">
+                        Conoce más <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <?php include 'components/contactoEsFacil.php'; ?>
 </main>
 <?php include 'partials/footer.php'; ?>

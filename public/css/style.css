@@ -46,6 +46,17 @@ html {
     max-height: 72px;
 }
 
+.esfacil__left {
+    border-right: 2px solid var(--dark-blue);
+}
+
+.esfacil__elipse {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 #mobileMenu,
 #mobileMenu *{
     animation: none;
@@ -78,6 +89,28 @@ html {
     gap: 24px;
 }
 
+.input--lightBlue {
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    width: 100%;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 20px;
+    transition: all 0.6s ease-in-out;
+    margin: 12px 0;
+}
+
+.input--lightBlue::placeholder {
+    color: var(--medium-blue);
+}
+
+.input--lightBlue:focus {
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+
 @media (max-width: 990px) {
     .contacto__banner {
         position: relative !important;
@@ -86,6 +119,14 @@ html {
         transform: translateX(0) !important;
         border-radius: 12px !important;
         width: 100% !important;
+    }
+
+    .esfacil__left {
+        border-right: none;
+    }
+
+    .esfacil__elipse {
+        display: none;
     }
 }
 

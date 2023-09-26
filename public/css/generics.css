@@ -163,6 +163,11 @@
     transition: background-color 0.3s ease-in-out;
 }
 
+.grid--2rows {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
 .grid--2cols {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -201,6 +206,10 @@
     gap: 24px !important;
 }
 
+.gap--32 {
+    gap: 32px !important;
+}
+
 .w--50 {
     width: 50%;
     margin: 0 auto;
@@ -231,6 +240,11 @@
 .mw--1440 {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+.mh--140 {
+    max-height: 140px;
+    object-fit: contain;
 }
 
 .h--64 {
@@ -278,6 +292,10 @@
 
 .rounded--16 {
     border-radius: 16px;
+}
+
+.textarea {
+    resize: none;
 }
 
 @media (max-width: 1400px) {
