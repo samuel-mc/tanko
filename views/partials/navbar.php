@@ -1,11 +1,11 @@
 <?php $title = isset($title) ? $title : 'Tanko';
 ?>
 
-<header class="bg-white shadow py-3 mx-5 my-3 d-none d-lg-block" style="border-radius: 100px;">
+<header class="bg-white px-2 py-3 mx-auto my-3 d-none d-lg-block nav--desktop">
     <div class="mw--1440 d-flex justify-content-between align-items-center">
         <img src="<?php echo __ROOT__; ?>/public/img/logo.png" alt="">
         <nav>
-            <ul class="d-flex text--sm w-100 list--unstyled">
+            <ul class="d-flex text-center align-items-center text--sm w-100 list--unstyled">
                 <li class="mx-2"><a class="<?php echo $title == 'Home' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>">Home</a></li>
                 <li class="mx-2"><a class="<?php echo $title == 'Servicios' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>nosotros">Servicios</a></li>
                 <li class="mx-2"><a class="<?php echo $title == 'Seguros personales' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>servicios">Seguros personales</a></li>
@@ -15,7 +15,7 @@
             </ul>
         </nav>
 
-        <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn-dark btn--rounded btn--darkBlue py-2 px-4 w--fit h--fit text--bold">
+        <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn--rounded btn--darkBlue py-2 px-4 w--fit h--fit text--bold">
             Contacto
         </a>
     </div>

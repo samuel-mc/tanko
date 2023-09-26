@@ -5,6 +5,45 @@ html {
 /* Animaciones */
 * {
     animation: appear 0.3s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav--desktop {
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translateX(50%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 95vw;
+    max-width: 1440px;
+}
+
+.contacto__banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 100px;
+    position: absolute;
+    top: -12px;
+    width: 95vw;
+    max-width: 1440px;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.banner--brands {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner--brands img {
+    width: 15%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    max-height: 72px;
 }
 
 #mobileMenu,
@@ -37,6 +76,17 @@ html {
     display: grid;
     grid-template-columns: 2fr 3fr;
     gap: 24px;
+}
+
+@media (max-width: 990px) {
+    .contacto__banner {
+        position: relative !important;
+        top: 0 !important;
+        right: 0 !important;
+        transform: translateX(0) !important;
+        border-radius: 12px !important;
+        width: 100% !important;
+    }
 }
 
 @media (max-width: 767px) {

@@ -16,6 +16,15 @@
 
 }
 
+
+.font--jf {
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.font--pp {
+    font-family: 'Poppins', sans-serif !important;
+}
+
 .text--xs {
     font-size: var(--text-xs);
 }
@@ -54,6 +63,10 @@
 
 .text--dark-blue {
     color: var(--dark-blue);
+}
+
+.text--medium-blue {
+    color: var(--medium-blue);
 }
 
 .a--white {
@@ -134,6 +147,7 @@
 
 .btn--darkBlue:hover {
     background-color: var(--light-blue) !important;
+    color: var(--dark-blue) !important;
     transition: background-color 0.3s ease-in-out;
 }
 
@@ -145,12 +159,18 @@
 
 .btn--mediumBlue:hover {
     background-color: var(--light-blue) !important;
+    color: var(--medium-blue) !important;
     transition: background-color 0.3s ease-in-out;
 }
 
 .grid--2cols {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.grid--2-3cols {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
 }
 
 .grid--3cols {
@@ -256,19 +276,9 @@
     border-right: 1px solid var(--dark-blue)
 }
 
-.btnSlider{
-    background-color: #DBDBDB !important; 
-    height:80px !important; 
-    width: 80px !important; 
-    top:40% !important; 
+.rounded--16 {
+    border-radius: 16px;
 }
-
-.border--light-grey{
-    border: solid var(--light-grey);
-    border-radius: 10px;
-}
-
-
 
 @media (max-width: 1400px) {
     .grid--5cols {
@@ -319,6 +329,10 @@
 
     .grid--3cols {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .grid--2-3cols {
+        grid-template-columns: 1fr;
     }
 }
 
