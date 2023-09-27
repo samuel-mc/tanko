@@ -123,6 +123,32 @@ html {
     display: none !important;
 }
 
+.card-header:hover button {
+    text-decoration: none;
+}
+
+.card-header button.collapsed .more{
+    display: none;
+}
+
+.card-header button .less {
+    display: none;
+}
+
+.card-header button.collapsed .less{
+    display: inline;
+}
+
+.card-header button .more {
+    display: inline;
+}
+
+.accordion--item {
+    border: 1px solid #e6e6e6 !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 16px !important;
+}
+
 @media (max-width: 990px) {
     .contacto__banner {
         position: relative !important;
