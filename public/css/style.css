@@ -110,6 +110,18 @@ html {
     transition: all 0.3s ease-in-out;
 }
 
+.splide__arrows.splide__arrows--ltr {
+    display: flex;
+}
+
+.splide__arrows.splide__arrows--ltr button {
+    position: static;
+    background-color: transparent;
+}
+
+.splide__pagination {
+    display: none !important;
+}
 
 @media (max-width: 990px) {
     .contacto__banner {

@@ -13,7 +13,7 @@
     --text-lg: 28px;
     --text-xl: 40px;
     --text-2xl: 64px;
-
+    --text-uxl: 160px;
 }
 
 
@@ -49,6 +49,10 @@
     font-size: var(--text-2xl);
 }
 
+.text--uxl {
+    font-size: var(--text-uxl);
+}
+
 .text--bold {
     font-weight: bold;
 }
@@ -67,6 +71,10 @@
 
 .text--medium-blue {
     color: var(--medium-blue);
+}
+
+.text--light-blue {
+    color: var(--light-blue);
 }
 
 .a--white {
@@ -232,7 +240,7 @@
     margin: 0 auto;
 }
 
-.mw-400 {
+.mw--400 {
     max-width: 400px;
     margin: 0 auto;
 }
@@ -296,6 +304,10 @@
 
 .textarea {
     resize: none;
+}
+
+.justify__items--center {
+    justify-items: center;
 }
 
 @media (max-width: 1400px) {

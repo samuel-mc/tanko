@@ -50,5 +50,31 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<script src="<?php echo __ROOT__; ?>/public/js/carousel/dist/js/splide.min.js"></script>
+<script>
+    const carouselHome = new Splide('#carouselHome', {
+        // autoplay: true,
+        type: 'loop',
+        gap: '1.6rem',
+        focus: 'center',
+        perPage: 1,
+        perMove: 1,
+        isNavigation: false,
+        breakpoints: {
+            1024: {
+                perPage: 1,
+                gap: '1rem',
+            },
+            480: {
+                perPage: 1,
+                gap: '1rem',
+            },
+        },
+        autoScroll: {
+            speed: 2,
+        },
+    });
 
+    carouselHome?.mount();
+</script>
 </html>

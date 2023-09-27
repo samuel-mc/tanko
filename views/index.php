@@ -109,7 +109,7 @@
             <div class="grid--2rows">
                 <img src="<?php echo __ROOT__; ?>/public/img/home/ns4.png" class="w-100 mw--280 mh--140">
                 <div class="d-flex flex-column justify-content-between">
-                    <p class="text--sm my-3">Servicios de Ingeniería, tales como: Inspecciones de evaluación, cálculo de  PML, manejo de control de pérdidas.</p>
+                    <p class="text--sm my-3">Servicios de Ingeniería, tales como: Inspecciones de evaluación, cálculo de PML, manejo de control de pérdidas.</p>
                     <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn--rounded btn--mediumBlue py-3 px-4 w--fit h--fit mx-auto">
                         Conoce más <i class="fa-solid fa-arrow-right"></i>
                     </a>
@@ -130,12 +130,92 @@
                 <img src="<?php echo __ROOT__; ?>/public/img/home/ns6.png" class="w-100 mw--280 mh--140">
                 <div class="d-flex flex-column justify-content-between">
                     <p class="text--sm my-3">
-                    Asesoría y Gestión de siniestros.
+                        Asesoría y Gestión de siniestros.
                     </p>
                     <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn--rounded btn--mediumBlue py-3 px-4 w--fit h--fit mx-auto">
                         Conoce más <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="mw--1440 p-lg-4 p-2">
+        <div id="carouselHome" class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide grid--2cols align-items-center gap--24 p-2 p-lg-4 bg-white">
+                        <div>
+                            <h2 class="text--uxl text--light-blue text--bold">01</h2>
+                            <p class="text--xl">Análisis de necesidades.</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="<?php echo __ROOT__; ?>/public/img/home/journey1.png" class="mw--400 w-100">
+                        </div>
+                    </li>
+                    <li class="splide__slide grid--2cols align-items-center gap--24 p-2 p-lg-4 bg-white">
+                        <div>
+                            <h2 class="text--uxl text--light-blue text--bold">02</h2>
+                            <p class="text--xl">
+                                Diseño de producto.
+                            </p>
+                        </div>
+                        <div class="text-center">
+                            <img src="<?php echo __ROOT__; ?>/public/img/home/journey2.png" class="mw--400 w-100">
+                        </div>
+                    </li>
+                    <li class="splide__slide grid--2cols align-items-center gap--24 p-2 p-lg-4 bg-white">
+                        <div>
+                            <h2 class="text--uxl text--light-blue text--bold">03</h2>
+                            <p class="text--xl">
+                                Brocking con aseguradoras.
+                            </p>
+                        </div>
+                        <div class="text-center">
+                            <img src="<?php echo __ROOT__; ?>/public/img/home/journey3.png" class="mw--400 w-100">
+                        </div>
+                    </li>
+                    <li class="splide__slide grid--2cols align-items-center gap--24 p-2 p-lg-4 bg-white">
+                        <div>
+                            <h2 class="text--uxl text--light-blue text--bold">04</h2>
+                            <p class="text--xl">
+                                Entrega de mejores opciones a cliente.
+                            </p>
+                        </div>
+                        <div class="text-center">
+                            <img src="<?php echo __ROOT__; ?>/public/img/home/journey4.png" class="mw--400 w-100">
+                        </div>
+                    </li>
+                    <li class="splide__slide grid--2cols align-items-center gap--24 p-2 p-lg-4 bg-white">
+                        <div>
+                            <h2 class="text--uxl text--light-blue text--bold">05</h2>
+                            <p class="text--xl">
+                                Capacitación de cliente.
+                            </p>
+                        </div>
+                        <div class="text-center">
+                            <img src="<?php echo __ROOT__; ?>/public/img/home/journey5.png" class="mw--400 w-100">
+                        </div>
+                    </li>
+                    <li class="splide__slide grid--2cols align-items-center gap--24 p-2 p-lg-4 bg-white">
+                        <div>
+                            <h2 class="text--uxl text--light-blue text--bold">06</h2>
+                            <p class="text--xl">
+                                Servicio post venta.
+                            </p>
+                        </div>
+                        <div class="text-center">
+                            <img src="<?php echo __ROOT__; ?>/public/img/home/journey6.png" class="mw--400 w-100">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="splide__arrows">
+                <button class="splide__arrow splide__arrow--prev m-2">
+                    <i class="fa-solid fa-arrow-left fa-2xl"></i>
+                </button>
+                <button class="splide__arrow splide__arrow--next m-2">
+                    <i class="fa-solid fa-arrow-right fa-2xl"></i>
+                </button>
             </div>
         </div>
     </section>
