@@ -12,6 +12,10 @@ Flight::route('/', function () {
     Flight::render('index.php', array('title' => 'Home'));
 });
 
+Flight::route('/segurosPersonales', function () {
+    Flight::render('segurosPersonales.php', array('title' => 'Seguros Personales'));
+});
+
 #404
 Flight::map('notFound', function () {
     // Display custom 404 page
