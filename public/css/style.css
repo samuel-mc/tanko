@@ -189,7 +189,9 @@ html {
 .segurosPersonales--hero {
     background-image: url('../img/segurosPersonales/hero.png');
 }
-
+.segurosEmpresariales--hero {
+    background-image: url('../img/segurosEmpresariales/hero.png');
+}
 
 @media (max-width: 1250px) {
     .hero .text3 {
