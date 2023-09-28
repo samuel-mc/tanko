@@ -150,7 +150,7 @@ html {
     border-radius: 16px !important;
 }
 
-.segurosPersonales--hero {
+.hero {
     background-image: url('../img/segurosPersonales/hero.png');
     background-size: cover;
     background-position: center;
@@ -159,18 +159,27 @@ html {
     position: relative;
 }
 
-.segurosPersonales--hero .text1 {
+.hero .text1 {
     position: absolute;
     bottom: 50%;
     text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.segurosPersonales--hero .text2 {
+.hero .text2 {
     position: absolute;
     bottom: 0;
     text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     right: 5%;
 }
+
+.fianzas--hero {
+    background-image: url('../img/fianzas/hero.png');
+}
+
+.segurosPersonales--hero {
+    background-image: url('../img/segurosPersonales/hero.png');
+}
+
 
 @media (max-width: 990px) {
     .contacto__banner {
@@ -196,15 +205,15 @@ html {
         grid-template-columns: 1fr;
     }
 
-    .segurosPersonales--hero {
+    .hero {
         aspect-ratio: auto;
     }
 
-    .segurosPersonales--hero .text1 {
+    .hero .text1 {
         position: static;
     }
 
-    .segurosPersonales--hero .text2 {
+    .hero .text2 {
         position: static;
     }
 }
