@@ -151,7 +151,6 @@ html {
 }
 
 .hero {
-    background-image: url('../img/segurosPersonales/hero.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -171,15 +170,32 @@ html {
     text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     right: 5%;
 }
+.hero .text3 {
+    position: absolute;
+    bottom:5%; 
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    left: 50%;
+}
+
 
 .fianzas--hero {
     background-image: url('../img/fianzas/hero.png');
+}
+
+.nosotros--hero {
+    background-image: url('../img/nosotros/hero.png');
 }
 
 .segurosPersonales--hero {
     background-image: url('../img/segurosPersonales/hero.png');
 }
 
+
+@media (max-width: 1250px) {
+    .hero .text3 {
+        position: static;
+    }
+}
 
 @media (max-width: 990px) {
     .contacto__banner {
@@ -198,6 +214,7 @@ html {
     .esfacil__elipse {
         display: none;
     }
+
 }
 
 @media (max-width: 767px) {
@@ -214,6 +231,9 @@ html {
     }
 
     .hero .text2 {
+        position: static;
+    }
+    .hero .text3 {
         position: static;
     }
 }

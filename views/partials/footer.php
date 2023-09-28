@@ -20,8 +20,8 @@
             <div>
                 <h4 class="text--dark-blue text--bold text--sm mb-4">Home</h4>
                 <ul class="list--unstyled">
-                    <li class="my-2"><a class="text--sm a--dark-blue" href="<?php echo __ROOT__; ?>">Nosotros</a></li>
-                    <li class="my-2"><a class="text--sm a--dark-blue" href="<?php echo __ROOT__; ?>">Servicios</a></li>
+                    <li class="my-2"><a class="text--sm a--dark-blue" href="<?php echo __ROOT__; ?>nosotros">Nosotros</a></li>
+                    <li class="my-2"><a class="text--sm a--dark-blue" href="<?php echo __ROOT__; ?>servicios">Servicios</a></li>
                     <li class="my-2"><a class="text--sm a--dark-blue" href="<?php echo __ROOT__; ?>">Client journey</a></li>
                 </ul>
             </div>
@@ -36,8 +36,8 @@
             <div>
                 <h4 class="text--dark-blue text--bold text--sm mb-4">Seguros</h4>
                 <ul class="list--unstyled">
-                    <li class="my-2"><a class="text--sm a--dark-blue" href="<?php echo __ROOT__; ?>">Personal</a></li>
-                    <li class="my-2"><a class="text--sm a--dark-blue" href="<?php echo __ROOT__; ?>">Empresarial</a></li>
+                    <li class="my-2"><a class="text--sm a--dark-blue" href="<?php echo __ROOT__; ?>segurosPersonales">Personal</a></li>
+                    <li class="my-2"><a class="text--sm a--dark-blue" href="<?php echo __ROOT__; ?>segurosEmpresariales">Empresarial</a></li>
                     <li class="my-2"><a class="text--sm a--dark-blue" href="<?php echo __ROOT__; ?>">Fianzas</a></li>
                 </ul>
             </div>

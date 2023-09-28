@@ -7,11 +7,11 @@
         <nav>
             <ul class="d-flex text-center align-items-center text--sm w-100 list--unstyled">
                 <li class="mx-2"><a class="<?php echo $title == 'Home' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>">Home</a></li>
-                <li class="mx-2"><a class="<?php echo $title == 'Servicios' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>nosotros">Servicios</a></li>
-                <li class="mx-2"><a class="<?php echo $title == 'Seguros Personales' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>servicios">Seguros personales</a></li>
-                <li class="mx-2"><a class="<?php echo $title == 'Seguros empresariales' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>#contacto">Seguros empresariales</a></li>
-                <li class="mx-2"><a class="<?php echo $title == 'Fianzas' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>#contacto">Fianzas</a></li>
-                <li class="mx-2"><a class="<?php echo $title == '¿Quiénes somos?' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>#contacto">¿Quiénes somos?</a></li>
+                <li class="mx-2"><a class="<?php echo $title == 'Servicios' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>servicios">Servicios</a></li>
+                <li class="mx-2"><a class="<?php echo $title == 'Seguros Personales' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>segurosPersonales">Seguros personales</a></li>
+                <li class="mx-2"><a class="<?php echo $title == 'Seguros empresariales' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>segurosEmpresariales">Seguros empresariales</a></li>
+                <li class="mx-2"><a class="<?php echo $title == 'Fianzas' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>finanzas">Fianzas</a></li>
+                <li class="mx-2"><a class="<?php echo $title == '¿Quiénes somos?' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>nosotros">¿Quiénes somos?</a></li>
             </ul>
         </nav>
 
@@ -41,11 +41,11 @@
             <nav>
                 <ul class="d-flex flex-column text--md w-100 list--unstyled">
                     <li class="my-2"><a class="<?php echo $title == 'Home' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>">Home</a></li>
-                    <li class="my-2"><a class="<?php echo $title == 'Servicios' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>nosotros">Servicios</a></li>
-                    <li class="my-2"><a class="<?php echo $title == 'Seguros personales' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>servicios">Seguros personales</a></li>
-                    <li class="my-2"><a class="<?php echo $title == 'Seguros empresariales' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>#contacto">Seguros empresariales</a></li>
-                    <li class="my-2"><a class="<?php echo $title == 'Fianzas' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>#contacto">Fianzas</a></li>
-                    <li class="my-2"><a class="<?php echo $title == '¿Quiénes somos?' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>#contacto">¿Quiénes somos?</a></li>
+                    <li class="my-2"><a class="<?php echo $title == 'Servicios' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>servicios">Servicios</a></li>
+                    <li class="my-2"><a class="<?php echo $title == 'Seguros personales' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>segurosPersonales">Seguros personales</a></li>
+                    <li class="my-2"><a class="<?php echo $title == 'Seguros empresariales' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>segurosEmpresariales">Seguros empresariales</a></li>
+                    <li class="my-2"><a class="<?php echo $title == 'Fianzas' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>finanzas">Fianzas</a></li>
+                    <li class="my-2"><a class="<?php echo $title == '¿Quiénes somos?' ? 'a--dark-blue text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>nosotros">¿Quiénes somos?</a></li>
                 </ul>
             </nav>
         </div>
