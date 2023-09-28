@@ -37,9 +37,18 @@ Flight::route('/contacto', function () {
     Flight::render('contacto.php', array('title' => 'Contacto'));
 });
 
-Flight::route('/landing', function () {
-    Flight::render('landing.php', array('title' => 'Landing'));
+Flight::route('/landingCasa', function () {
+    Flight::render('landingCasa.php', array('title' => 'Landing'));
 });
+
+Flight::route('/landingAccidentes', function () {
+    Flight::render('landingAccidentes.php', array('title' => 'Landing'));
+});
+
+Flight::route('/landingAuditoria', function () {
+    Flight::render('landingAuditoria.php', array('title' => 'Landing'));
+});
+
 
 #404
 Flight::map('notFound', function () {

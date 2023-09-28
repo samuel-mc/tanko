@@ -19,6 +19,29 @@ html {
     width: 95vw;
     max-width: 1440px;
 }
+.bg--landing {
+    width: 100vw;
+    background-image: url('../img/landing/bg1.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 50% 700px; /* Ajusta el ancho del fondo a un 80% del contenedor */
+}
+
+.bg3 {
+    width: 100vw;
+    height: 300px;
+    position: relative;
+    background-image: url('../img/landing/bg3.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 700px; /* Ajusta el ancho del fondo a un 80% del contenedor */
+}
+
+.bg3 > div{
+    position: absolute;
+    width: 50%;
+    top:40%;
+}
 
 .contacto__banner {
     display: flex;
@@ -200,6 +223,15 @@ html {
 }
 
 @media (max-width: 990px) {
+    .bg3 > div{
+        position: absolute;
+        width: 90%;
+        top:50%;
+    }
+    .bg3 > div >h2{
+        font-size: var(--text-lg);
+    }
+    
     .contacto__banner {
         position: relative !important;
         top: 0 !important;

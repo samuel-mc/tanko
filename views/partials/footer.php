@@ -1,7 +1,7 @@
 <footer class="bg--lightBlue py-5 px-3">
     <div class="mw--1440 footer">
         <div>
-            <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn--rounded btn--mediumBlue py-2 px-4 w--fit h--fit text--bold">
+            <a href="<?php echo __ROOT__; ?>contacto" class="btn btn--rounded btn--mediumBlue py-2 px-4 w--fit h--fit text--bold">
                 Contáctanos
             </a>
             <div class="my-5">

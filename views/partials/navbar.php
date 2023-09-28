@@ -15,7 +15,7 @@
             </ul>
         </nav>
 
-        <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn--rounded btn--darkBlue py-2 px-4 w--fit h--fit text--bold">
+        <a href="<?php echo __ROOT__; ?>contacto" class="btn btn--rounded btn--darkBlue py-2 px-4 w--fit h--fit text--bold">
             Contacto
         </a>
     </div>
@@ -50,7 +50,7 @@
             </nav>
         </div>
         <div>
-            <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn-dark btn--rounded btn--darkBlue py-2 px-4 w--fit h--fit text--bold">
+            <a href="<?php echo __ROOT__; ?>contacto" class="btn btn-dark btn--rounded btn--darkBlue py-2 px-4 w--fit h--fit text--bold">
                 Contacto
             </a>
         </div>
